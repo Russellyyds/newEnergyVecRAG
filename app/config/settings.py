@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     CHUNK_OVERLAP: int = 200
 
     # LLM settings
-    OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "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")
+    OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
     LLM_MODEL: str = os.getenv("LLM_MODEL", "gpt-4")
     EMBEDDING_MODEL: str = os.getenv("EMBEDDING_MODEL", "text-embedding-ada-002")
 
